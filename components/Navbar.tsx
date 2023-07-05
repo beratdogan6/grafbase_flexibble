@@ -4,7 +4,7 @@ import Link from 'next/link'
 import AuthProviders from './AuthProviders';
 
 const Navbar = async () => {
-  const session = {};
+  const session = null;
 
   return (
     <nav className='flexBetween navbar'>
